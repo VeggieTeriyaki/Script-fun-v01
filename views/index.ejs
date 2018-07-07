@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ./partials/head %>
+  </head>
+  <header>
+        <% include ./partials/header %>
+  </header>
+  <body>
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-3"> Hey there, are you from staples?</h1>
+        <p class="lead">If so, I'm sorry, but you don't deserve to be here. Just kidding. This website is basically the brainchild of a very passionate developer who has watched the office twice: once with his cat Ricky, and another time with his girlfriend.
+        Please click on any of the characters below, and it will take you to a page where there will be a random sentence generated from the script of their character.</p>
+      </header>
+      <!-- Page Features -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-3">
+          <a href = "/ToGenerate/michael">
+            <div class="card">
+              <img class="card-img-top" src="http://fanfest.com/wp-content/uploads/2017/10/michael-scott-the-office.jpg " alt="">
+              <div class="card-body">
+                <h4 class="card-title">Michael Scott</h4>
+                <p class="card-text"> When it comes to leaving the personal life out of work Michael does not seem to understand the concept. He will continually make awkward, inappropriate, or sometimes ignorant comments during conversations with people. He believes that his co-workers idolize him because he is their boss and he looked up to his previous boss for everything. Michael believes that the workplace should be a fun environment for everyone and “place where dreams come true.”</p>
+              </div>
+              <div class="card-footer">
+                <a href="/ToGenerate/michael" class="btn btn-primary">Generate!</a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <a href = "/ToGenerate/dwight">
+            <div class="card">
+              <img class="card-img-top" src="https://i2.wp.com/thedailyfandom.com/wp-content/uploads/2017/11/61767a48-16ac-11e7-9d7a-cd3db232b835.jpg?resize=759%2C500&ssl=1" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Dwight Schrute</h4>
+                <p class="card-text">Dwight is trained in the art of surveillance, and is a former Lackawanna County volunteer sheriff's deputy. He has a purple belt in Goju-Ryu karate, and is the senpai at his dojo. Dwight is a pop culture and sci-fi enthusiast, who has expressed fanship of many sci-fi movies and popular television series. He makes most of his money through his beet farm's bnb.</p>
+              </div>
+              <div class="card-footer">
+                <a href="/ToGenerate/dwight" class="btn btn-primary">Generate!</a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <a href = "/ToGenerate/jim">
+            <div class="card">
+              <img class="card-img-top" src="http://www.wetpaint.com/wp-content/uploads/2016/04/the-office-jim-cat-640x480-1461014255.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Jim Halpert</h4>
+                <p class="card-text">His character serves as the intelligent, mild-mannered straight man role to Michael, although it is also defined by a rivalrous pranking on fellow salesman Dwight Schrute and a romantic interest in receptionist Pam Beesly. Reports say that he is now quite buff and is producing his own horror movies.</p>
+              </div>
+              <div class="card-footer">
+                <a href="/ToGenerate/jim" class="btn btn-primary">Generate!</a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <% include ./partials/footer %>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
